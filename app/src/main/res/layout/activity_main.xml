@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_marginEnd="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/layouttext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roomrevenue"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggalcontoh"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:src="@drawable/baseline_refresh_24_white"
+            android:layout_gravity="end"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/tableisi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Header Row -->
+                <TableRow android:background="@color/yellow">
+                    <TextView android:text="@string/room" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/argt" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/rcode" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/curr" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/roomrate" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/pax" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/comp" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/arrival" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/depart" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/guestname" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                </TableRow>
+                <TableRow android:background="@android:color/white">
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                    <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
+                </TableRow>
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

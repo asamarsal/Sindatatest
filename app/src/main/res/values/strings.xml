@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sindata Test</string>
+    <string name="roomrevenue">Room Revenue Breakdown</string>
+    <string name="tanggalcontoh">11/22/2024</string>
+    <string name="room">Room</string>
+    <string name="argt">Argt</string>
+    <string name="rcode">RCode</string>
+    <string name="curr">Curr</string>
+    <string name="roomrate">Room Rate</string>
+    <string name="pax">pax</string>
+    <string name="comp">Comp</string>
+    <string name="arrival">Arrival</string>
+    <string name="depart">Depart</string>
+    <string name="guestname">Guest Name</string>
+    <string name="zero">0</string>
+    <string name="panjang">Afhakkbujk jfwe wekr wek ke</string>
+</resources>
