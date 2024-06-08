@@ -7,11 +7,13 @@
     <string name="rcode">RCode</string>
     <string name="curr">Curr</string>
     <string name="roomrate">Room Rate</string>
-    <string name="pax">pax</string>
+    <string name="pax">Pax</string>
     <string name="comp">Comp</string>
     <string name="arrival">Arrival</string>
     <string name="depart">Depart</string>
     <string name="guestname">Guest Name</string>
     <string name="zero">0</string>
     <string name="panjang">Afhakkbujk jfwe wekr wek ke</string>
+    <string name="detailklik">Klik Button Untuk Mencari</string>
+    <string name="tekanbutton">Tekan</string>
 </resources>

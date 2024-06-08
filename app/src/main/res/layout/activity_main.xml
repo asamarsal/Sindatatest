@@ -79,16 +79,16 @@
                 android:layout_height="wrap_content">
                 <!-- Header Row -->
                 <TableRow android:background="@color/yellow">
-                    <TextView android:text="@string/room" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/argt" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/rcode" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/curr" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/roomrate" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/pax" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/comp" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/arrival" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/depart" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
-                    <TextView android:text="@string/guestname" android:padding="8dp" android:textSize="12sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/room" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/argt" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/rcode" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/curr" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/roomrate" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/pax" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/comp" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/arrival" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/depart" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+                    <TextView android:text="@string/guestname" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
                 </TableRow>
                 <TableRow android:background="@android:color/white">
                     <TextView android:text="@string/zero" android:textColor="@color/black" android:padding="8dp" android:textSize="12sp" android:background="@drawable/garistable"/>
