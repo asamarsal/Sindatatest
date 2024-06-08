@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableRow android:background="@color/yellow">
+        <TextView android:id="@+id/room_tv" android:text="@string/room" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/argt_tv" android:text="@string/argt" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/rcode_tv" android:text="@string/rcode" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/curr_tv" android:text="@string/curr" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/roomrate_tv" android:text="@string/roomrate" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/pax_tv" android:text="@string/pax" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/comp_tv" android:text="@string/comp" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/arrival_tv" android:text="@string/arrival" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/depart_tv" android:text="@string/depart" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+        <TextView android:id="@+id/guestname_tv" android:text="@string/guestname" android:padding="8dp" android:textSize="14sp" android:textColor="@android:color/white"/>
+    </TableRow>
+
+</TableLayout>
